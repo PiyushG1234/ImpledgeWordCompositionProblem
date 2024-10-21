@@ -124,7 +124,7 @@ int main() {
     CompoundWordFind finder;
     fstream file;
     vector<string> wordList;
-    file.open("Input_02.txt", ios::in);
+    file.open("Input_01.txt", ios::in);
     if (file.fail()) {
         cout << "Failed to open the file.";
     }
